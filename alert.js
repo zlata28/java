@@ -1,3 +1,4 @@
+
 //let web = 3
 //var web2 = 3
 //const web3 = 4
@@ -39,8 +40,69 @@
 //console.log(url)
 
 
-let num; 
-let num = prompt (`Число больше 100`);
-do {alert(num);num++}
-while (num<=100);  
+//alert("Я JavaScript!")
 
+
+//let num; 
+//let num = prompt (`Число больше 100`);
+//do {alert(num);num++}
+//while (num<=100);  
+
+// let a=1;
+// const b=2;
+// let c = String(a)
+// alert (c);
+
+// let age = prompt( "Ваш возвраст?");
+// if (age <18){
+    // alert(`Школьник`)}
+//  else if (age >18){
+    // alert(`Студент`)}
+
+// let result=(age<18)? 'Школьник' :'Студент';
+// alert(result);
+
+
+// let i=0;
+// while (i<=10) { 
+//   alert( i );
+//   i++;
+// }
+
+
+// for (let i=0; i<=10;i++){
+//      alert(i)
+// }
+
+
+// let i=10;
+// while (i>0) { 
+//     let num = Math.round(Math.random(100)*100)
+//     console.log(num)
+//     i--;
+// }
+
+
+
+// let age = +prompt( "Ваш возвраст?");
+// function scoolStud(x) {
+//   if(x<18){ 
+//     x++
+//     console.log('Школьник')
+//   }else{
+//     console.log('Студент')
+//   }
+// }
+
+// scoolStud(age)
+
+
+// let a = +prompt("первое число");
+// let b = +prompt("второе число");
+// function min(a,b){
+//     if(a < b) {
+//         return a 
+//     }else return b
+// } 
+
+// console.log(min(a,b))
