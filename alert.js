@@ -150,5 +150,4 @@
 
 function calculate(a,b,x){
    return a+b
-    
 }
