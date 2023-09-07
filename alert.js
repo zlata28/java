@@ -147,4 +147,36 @@
 //     function() {console.log("Вы не согласны")},
 // )
 
+// let a = +prompt("Первое число?")
+// let x = prompt("знак +-*/ ?")
+// let b = + prompt("Второе число?")
+// let calculate = (x =='+') ? function(){alert(a+b)}:
+// (x =='-') ? function(){alert(a-b)}:
+// (x =='*') ? function(){alert(a*b)}:
+// (x =='/') ? function(){alert(a/b)}:0
+// calculate()
+
+
+//  let a = +prompt("Первое число?")
+//  let b = +prompt("Второе число?")
+// function sum(){
+//     alert("")
+// }
+// sum()
+
+
+function sum(a,b){
+    return a+b
+}
+
+let mult = function(a,b){
+    return a * b
+}
+
+function calculate(a,b,sum, milt){
+    if(a>b) console.log(sum(a,b))
+    else  console.log(milt(a,b))
+}
+
+calculate(5,6, sum, mult)
 
