@@ -183,22 +183,22 @@
 
 // let user = new Object();
 
-let 
-
-const user ={
-    name: "Alex",
-    age: 30,
-    key: "value",
-    "likes birds": true,
-}
 
 
-user.isAdmin = true;
+// const user ={
+//     name: "Alex",
+//     age: 30,
+//     key: "value",
+//     "likes birds": true,
+// }
 
-delete user.age;
+
+// user.isAdmin = true;
+
+// delete user.age;
 
 
-user["likes birds"] = false
+// user["likes birds"] = false
 // console.log(user["likes birds"])
 
 
@@ -206,14 +206,50 @@ user["likes birds"] = false
 // user[x] = 8
 // console.log(user["likes birds"])
 
-let bag ={
-    fruct: " ",
-    coll: 0,
-    price: 0
-}
+// let bag ={
+//     fruct: " ",
+//     coll: 0,
+//     price: 0
+// }
 
 // bag.fruct = prompt("Какой фрукт купить?")
 // bag.coll = +prompt("Кол-во?")
 // bag.price = +prompt("Цена?")
 
 
+
+
+
+// let a = +prompt("Первое число?")
+// let x = prompt("знак +-*/ ?")
+// let b = + prompt("Второе число?")
+// let calculate = (x =='+') ? function(){alert(a+b)}:
+// (x =='-') ? function(){alert(a-b)}:
+// (x =='*') ? function(){alert(a*b)}:
+// (x =='/') ? function(){alert(a/b)}:0
+// calculate()
+
+
+
+// объекты JS практика
+
+let user = {
+    name: "John",
+}
+
+// user.name = "Alice";
+
+// delete user.name;
+
+alert(user.name);
+
+alert("age" in user);
+
+
+const person = {
+    name:"Zlata",
+    age:45,
+    city:"Sochi",
+}
+
+console.log(person);
