@@ -165,18 +165,55 @@
 // sum()
 
 
-function sum(a,b){
-    return a+b
+// function sum(a,b){
+//     return a+b
+// }
+
+// let mult = function(a,b){
+//     return a * b
+// }
+
+// function calculate(a,b,sum, milt){
+//     if(a>b) console.log(sum(a,b))
+//     else  console.log(milt(a,b))
+// }
+
+// calculate(5,6, sum, mult)
+
+
+// let user = new Object();
+
+let 
+
+const user ={
+    name: "Alex",
+    age: 30,
+    key: "value",
+    "likes birds": true,
 }
 
-let mult = function(a,b){
-    return a * b
+
+user.isAdmin = true;
+
+delete user.age;
+
+
+user["likes birds"] = false
+// console.log(user["likes birds"])
+
+
+// let x = "likes birds"
+// user[x] = 8
+// console.log(user["likes birds"])
+
+let bag ={
+    fruct: " ",
+    coll: 0,
+    price: 0
 }
 
-function calculate(a,b,sum, milt){
-    if(a>b) console.log(sum(a,b))
-    else  console.log(milt(a,b))
-}
+// bag.fruct = prompt("Какой фрукт купить?")
+// bag.coll = +prompt("Кол-во?")
+// bag.price = +prompt("Цена?")
 
-calculate(5,6, sum, mult)
 
