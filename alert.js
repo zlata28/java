@@ -253,3 +253,49 @@ const person = {
 }
 
 console.log(person);
+
+
+
+
+const person = {
+    name:"Zlata",
+    age:45,
+    address:{
+        city:"Sochi",    
+        street:"Mira" ,
+    },
+    set: function(name){
+         this.name = name
+    }
+}
+
+console.log(person)
+
+for(key in person){
+       console.log(person[key])
+}
+
+person.set("Vlad");
+
+console.log(person.name)
+
+
+
+const person2 = {
+    name:"Vlad",
+    age:36,
+    address:{
+        city:"Moskov",    
+        street:"Lenina" ,
+    }
+}
+
+const person3 = {...person,...person2}
+
+console.log(person3)
+
+
+
+
+
+
