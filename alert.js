@@ -233,41 +233,41 @@
 
 // объекты JS практика
 
-let user = {
-    name: "John",
-}
+// let user = {
+//     name: "John",
+// }
 
-// user.name = "Alice";
+// // user.name = "Alice";
 
-// delete user.name;
+// // delete user.name;
 
-alert(user.name);
+// alert(user.name);
 
-alert("age" in user);
-
-
-const person = {
-    name:"Zlata",
-    age:45,
-    city:"Sochi",
-}
-
-console.log(person);
+// alert("age" in user);
 
 
+// const person = {
+//     name:"Zlata",
+//     age:45,
+//     city:"Sochi",
+// }
+
+// console.log(person);
 
 
-const person = {
-    name:"Zlata",
-    age:45,
-    address:{
-        city:"Sochi",    
-        street:"Mira" ,
-    },
-    set: function(name){
-         this.name = name
-    }
-}
+
+
+// const person = {
+//     name:"Zlata",
+//     age:45,
+//     address:{
+//         city:"Sochi",    
+//         street:"Mira" ,
+//     },
+//     set: function(name){
+//          this.name = name
+//     }
+// }
 
 console.log(person)
 
@@ -290,7 +290,7 @@ const person2 = {
     }
 }
 
-const person3 = {...person,...person2}
+const person3 = {...person2}
 
 console.log(person3)
 
