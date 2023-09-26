@@ -269,33 +269,52 @@
 //     }
 // }
 
-console.log(person)
+//console.log(person)
 
-for(key in person){
-       console.log(person[key])
+// for(key in person){
+//        console.log(person[key])
+// }
+
+// person.set("Vlad");
+
+// console.log(person.name)
+
+
+
+// const person2 = {
+//     name:"Vlad",
+//     age:36,
+//     address:{
+//         city:"Moskov",    
+//         street:"Lenina" ,
+//     }
+// }
+
+// const person3 = {...person2}
+
+// console.log(person3)
+
+//Строки
+let str = "Hello"
+console.log(str.at(-1))
+
+for(let i of str){
+    console.log(str.at(-2))
 }
 
-person.set("Vlad");
+let str3 = ''
+let str4 = ''
 
-console.log(person.name)
-
-
-
-const person2 = {
-    name:"Vlad",
-    age:36,
-    address:{
-        city:"Moskov",    
-        street:"Lenina" ,
-    }
+for(let i of str){
+    if(i == str[0])str3 = i.toLowerCase()
+    else str4 += i   
 }
+str = str3 + str4
+console.log(str)
 
-const person3 = {...person2}
+str = str.toUpperCase()
 
-console.log(person3)
-
-
-
+console.log(str)
 
 
 
