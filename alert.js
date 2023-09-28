@@ -1,4 +1,3 @@
-
 //let web = 3
 //var web2 = 3
 //const web3 = 4
@@ -9,7 +8,6 @@
 //web2 =6
 
 //console.log(web,web2,web3)
-
 
 
 //let admin = ""
@@ -295,26 +293,107 @@
 // console.log(person3)
 
 //Строки
-let str = "Hello"
-console.log(str.at(-1))
+// let str = "Hello"
+// console.log(str.at(-1))
 
-for(let i of str){
-    console.log(str.at(-2))
-}
+// for(let i of str){
+//     console.log(str.at(-2))
+// }
 
-let str3 = ''
-let str4 = ''
+// let str3 = ''
+// let str4 = ''
 
-for(let i of str){
-    if(i == str[0])str3 = i.toLowerCase()
-    else str4 += i   
-}
-str = str3 + str4
-console.log(str)
+// for(let i of str){
+//     if(i == str[0])str3 = i.toLowerCase()
+//     else str4 += i   
+// }
+// str = str3 + str4
+// console.log(str)
 
-str = str.toUpperCase()
+// str = str.toUpperCase()
 
-console.log(str)
+// // console.log(str)
 
 
+// //строки
+// let str = 'Ослик Иа-Иа посмотрел на виадук';
 
+// console.log(str.indexOf("Иа",7))
+
+// //let searchStr = "Иа"
+
+// function searchStr(search){
+//      if(str.indexOf(searchStr) >= 0)console.log("Найдено")
+//      else console.log("Не найдено.")
+// }
+
+// searchStr("потом")
+
+
+// let strLuko = "У лукоморья дуб зелёный,Златая цепь на дубе том:И днём и ночью кот учёный,Всё ходит по цепи кругом.Идёт направо — песнь заводит,Налево — сказку говорит."
+
+// let strLukoCopy = strLuko.toLowerCase()
+
+// let target = "на"
+// // let pos = 0
+// //  while(true){
+// //     let foundPos = strLukoCopy.indexOf(target,pos)
+// //     if(foundPos == -1) break;
+ 
+// // console.log(`Найдено тут: ${foundPos}`)
+// // pos = foundPos +1
+// //  }
+
+//  function Luko(str,target){   // ?
+//     let strCopy = strLuko.toLowerCase()
+
+//     let pos = 0
+//  while(true){
+//     let foundPos = strCopy.indexOf(target,pos)
+//     if(foundPos == -1) break;
+ 
+// console.log(`Найдено тут: ${foundPos}`)
+// pos = foundPos +1
+//  }
+// }
+// Luko(strLuko,'на')
+
+
+// массивы
+let arr = new Array()
+let arr2 = ["Яблоко", "Апельсин", "Слива"];
+
+console.log(arr2[1])
+
+arr2[1] = 'Груша'
+console.log(arr2[1])
+
+arr2[3] = 'Лимон'
+console.log(arr2)
+
+arr2[4] = {name: 'Igor'}
+console.log(arr2[4])
+
+//arr3 = [()=> 2+2,54,'Oleg']
+console.log(arr3)
+
+console.log(arr2.at(-2))
+
+arr2.push(67)
+console.log(arr2)
+arr2.shift()
+console.log(arr2)
+arr2.unshift('Яблоко')
+console.log(arr2)
+arr2.pop()
+console.log(arr2)
+let num2 = arr2.pop()
+console.log(arr2)
+arr2.push("Апельсин","Груша");
+arr2.unshift("Ананас","Лимон");
+console.log(arr2)
+
+let arr3 = []
+
+arr2.at(-1)
+arr2.length
