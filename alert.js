@@ -359,41 +359,51 @@
 // Luko(strLuko,'на')
 
 
-// массивы
-let arr = new Array()
-let arr2 = ["Яблоко", "Апельсин", "Слива"];
+// // массивы
+// let arr = new Array()
+// let arr2 = ["Яблоко", "Апельсин", "Слива"];
 
-console.log(arr2[1])
+// console.log(arr2[1])
 
-arr2[1] = 'Груша'
-console.log(arr2[1])
+// arr2[1] = 'Груша'
+// console.log(arr2[1])
 
-arr2[3] = 'Лимон'
-console.log(arr2)
+// arr2[3] = 'Лимон'
+// console.log(arr2)
 
-arr2[4] = {name: 'Igor'}
-console.log(arr2[4])
+// arr2[4] = {name: 'Igor'}
+// console.log(arr2[4])
 
 //arr3 = [()=> 2+2,54,'Oleg']
-console.log(arr3)
+// console.log(arr3)
 
-console.log(arr2.at(-2))
+// console.log(arr2.at(-2))
 
-arr2.push(67)
-console.log(arr2)
-arr2.shift()
-console.log(arr2)
-arr2.unshift('Яблоко')
-console.log(arr2)
-arr2.pop()
-console.log(arr2)
-let num2 = arr2.pop()
-console.log(arr2)
-arr2.push("Апельсин","Груша");
-arr2.unshift("Ананас","Лимон");
-console.log(arr2)
+// arr2.push(67)
+// console.log(arr2)
+// arr2.shift()
+// console.log(arr2)
+// arr2.unshift('Яблоко')
+// console.log(arr2)
+// arr2.pop()
+// console.log(arr2)
+// let num2 = arr2.pop()
+// console.log(arr2)
+// arr2.push("Апельсин","Груша");
+// arr2.unshift("Ананас","Лимон");
+// console.log(arr2)
 
-let arr3 = []
+// let arr3 = []
 
-arr2.at(-1)
-arr2.length
+// arr2.at(-1)
+// arr2.length
+
+//Методы массивов
+// let arr = ["Яблоко","Апельсин","Груша"]
+// let buf = ''
+// arr.forEach((i) => {
+//      buf += i +','
+// })
+// console.log(buf)
+
+
