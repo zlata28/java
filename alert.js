@@ -407,3 +407,39 @@
 // console.log(buf)
 
 
+let arr = [1,20,3,45]
+
+function sum(arr){
+    let sum = 0
+    for(let i=0; i < arr.length; i++){
+        sum += arr[i]
+    } 
+    return sum
+}
+let summ = sum(arr)
+console.log(summ)
+
+///////////////////
+
+function maxsimal(arr){
+    return Math.max(...arr)
+} 
+ let max = maxsimal(arr)
+ console.log(max)
+
+ ////////
+ let user = [1,"Вася",2, "Петя",
+ ]
+
+ let users = user.filter (function()){
+    
+ }
+    // let arr=["a","bc","de","fgh","i","jkl"];
+
+    // var resultArray = arr.filter(function(t) {
+    //   return t.length >= 2;
+    // }).sort(function(a, b) {
+    //   return b.length - a.length;
+    // });
+    
+    // console.log(resultArray);
