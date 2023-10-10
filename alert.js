@@ -407,33 +407,33 @@
 // console.log(buf)
 
 
-let arr = [1,20,3,45]
+// let arr = [1,20,3,45]
 
-function sum(arr){
-    let sum = 0
-    for(let i=0; i < arr.length; i++){
-        sum += arr[i]
-    } 
-    return sum
-}
-let summ = sum(arr)
-console.log(summ)
+// function sum(arr){
+//     let sum = 0
+//     for(let i=0; i < arr.length; i++){
+//         sum += arr[i]
+//     } 
+//     return sum
+// }
+// let summ = sum(arr)
+// console.log(summ)
 
-///////////////////
+// ///////////////////
 
-function maxsimal(arr){
-    return Math.max(...arr)
-} 
- let max = maxsimal(arr)
- console.log(max)
+// function maxsimal(arr){
+//     return Math.max(...arr)
+// } 
+//  let max = maxsimal(arr)
+//  console.log(max)
 
- ////////
- let user = [1,"Вася",2, "Петя",
- ]
+//  ////////
+//  let user = [1,"Вася",2, "Петя",
+//  ]
 
- let users = user.filter (function()){
+//  let users = user.filter (function()){
     
- }
+//  }
     // let arr=["a","bc","de","fgh","i","jkl"];
 
     // var resultArray = arr.filter(function(t) {
@@ -443,3 +443,49 @@ function maxsimal(arr){
     // });
     
     // console.log(resultArray);
+
+
+
+    // let arr3 = [32,76,82,32,22,76]
+
+    // function newArr(arr){
+    //     arrBuff = new Set(arr)
+    //     arrBuff2 = Array.from(arrBuff)
+    //     return arrBuff2   
+    //    // return [...new Set(arr)]
+    // }
+
+    // let arr4 = newArr(arr3)
+    // console.log(arr4)
+
+
+    function aclean(arr) {
+        let map = new Map();
+      
+        for (let word of arr) {
+          // разбиваем слово на буквы, сортируем и объединяем снова в строку
+          let sorted = word.toLowerCase().split("").sort().join(""); // (*)
+         console.log(`${sorted}:${word}`)
+          map.set(sorted, word);
+        }
+      
+        return Array.from(map.values());
+      }
+      
+      let arr5 = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
+      
+      //alert( aclean(arr) );
+      aclean(arr5)
+      console.log(aclean(arr5));
+
+
+
+      let map = new Map();
+
+      map.set("name", "John");
+      
+      let keys = Array.from(map.keys());
+      
+      keys.push("more");
+      
+      console.log(keys);
