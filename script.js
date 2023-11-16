@@ -4,17 +4,37 @@
 //createI
 
 
-output.innerHTML = 
+// output.innerHTML = 
 
 
-let products = [] 
+// let products = [] 
 
-async function getProductO(){
-  const data = await fetch('https://dummyjson.com/docs/products')
-  const products = await data.json()
-}
-getProductO()
+//async function getProducts(){
+//   const data = await fetch('https://dummyjson.com/docs/products')
+//   const products = await data.json()
+// }
+// getProductO()
 
-function createProduct(){
-  products
+// function createProduct(){
+//   products
+// }
+
+
+
+
+async function getProducts(){
+  let products = [] 
+  const list = document.guerySelector('output')
+
+  fetch('https://dummyjson.com/products')
+      .then(res => res.json())
+      .then(json =>{
+          products = json.products
+          products.forEach(item =>{
+            let elem = document.createElement('li')
+            elem.textContent = item.title
+            list.appendChild(elem)
+          })
+      })
+      .catch(error => console.log(error))
 }
