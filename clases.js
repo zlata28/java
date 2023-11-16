@@ -11,3 +11,4 @@ export class Person{
     }
 }
 
+export default new Person('Vasja'23)
