@@ -11,4 +11,4 @@ export class Person{
     }
 }
 
-export default new Person('Vasja'23)
+export default new Person('Vasja',23)

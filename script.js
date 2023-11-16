@@ -43,7 +43,7 @@
 
 //модули
 
-import{sayHi}from"./sayHi.js";
+import{sayHi}from "./sayHi.js";
 import{Person}from"./clases.js";
 
 console.log('Это вывод из script.js')
